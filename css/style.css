@@ -127,12 +127,13 @@ section > .container {
 
 .footer-bk {
   background-color: #222629;
-  height: 602px;
+  height: 800px;
 }
 
 .container-footer {
   display: flex;
   justify-content: center;
+
   padding-left: 780px;
   padding-right: 780px;
 }
@@ -145,6 +146,9 @@ section > .container {
 }
 
 .block-img-footer {
+  column-count: 4;
+  column-width: 200px;
+  column-gap: 20px;
   background-color: #1fafa6;
   border: 1px dashed black;
   width: 70%;
@@ -152,18 +156,23 @@ section > .container {
   margin-top: 20px;
 }
 
+.column-footer {
+  border: 1px dashed white;
+  height: 20px;
+  width: 50%;
+}
+
 .hr-container-footer {
   display: flex;
   justify-content: space-between;
   background-color: #7efdd2;
   padding: 30px 0;
-  margin-top: 100px;
+  margin-top: 220px;
   margin-right: 780px;
   margin-left: 780px;
 }
 
 .logo-footer {
-  justify-content: space-between;
   background-color: #f9bfcb;
   border: 1px dashed black;
   padding-right: 10px;
