@@ -1,0 +1,77 @@
+/* # RESET */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+/* # UTILS */
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 1000px;
+  max-width: 100%;
+}
+
+/* # DEBUG */
+
+.debug {
+  background-color: #d7a522;
+  margin: 0px;
+  padding: 10px;
+  border: 1px dashed black;
+}
+
+/* # HEADER */
+
+.page-header {
+  display: flex;
+  justify-content: center;
+  background-color: #acd6e4;
+  padding: 20px;
+}
+
+.logo-header {
+  padding: 10px;
+  padding-right: 200px;
+  border: 1px dashed black;
+  background-color: #d7a522;
+}
+
+.links-header {
+  padding: 0 300px;
+  align-content: center;
+  border: 1px dashed black;
+  background-color: #d7a522;
+}
+
+.login-header {
+  padding: 10px;
+  padding-left: 200px;
+  border: 1px dashed black;
+  background-color: #d7a522;
+}
+
+/* MAIN */
+
+.first-section {
+  background-color: #010088;
+  height: 500px;
+  padding-top: 50px;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
+.pink-block {
+  display: flex;
+  justify-content: center;
+  padding: 200px;
+  border: 1px dashed black;
+  background-color: #ec81eb;
+}
