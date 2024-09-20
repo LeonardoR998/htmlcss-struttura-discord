@@ -39,13 +39,13 @@ body {
 
 .logo-header {
   padding: 10px;
-  padding-right: 200px;
+  padding-right: 120px;
   border: 1px dashed black;
   background-color: #d7a522;
 }
 
 .links-header {
-  padding: 0 300px;
+  padding: 0 250px;
   align-content: center;
   border: 1px dashed black;
   background-color: #d7a522;
@@ -53,7 +53,7 @@ body {
 
 .login-header {
   padding: 10px;
-  padding-left: 200px;
+  padding-left: 120px;
   border: 1px dashed black;
   background-color: #d7a522;
 }
@@ -64,8 +64,8 @@ body {
   background-color: #010088;
   height: 500px;
   padding-top: 50px;
-  padding-left: 500px;
-  padding-right: 500px;
+  padding-left: 1000px;
+  padding-right: 1000px;
 }
 
 .pink-block {
@@ -75,3 +75,50 @@ body {
   border: 1px dashed black;
   background-color: #ec81eb;
 }
+
+.second-section {
+  background-color: #fefefe;
+  height: 500px;
+  padding-top: 50px;
+}
+
+.third-section {
+  background-color: #d2d2d2;
+  height: 500px;
+  padding-top: 50px;
+}
+
+.title-block {
+  background-color: #f9bfcb;
+  border: 1px dashed black;
+  width: 40%;
+}
+
+.img-block {
+  background-color: #1e8ff7;
+  border: 1px dashed black;
+  width: 60%;
+  padding: 200px 0;
+}
+
+section > .container {
+  display: flex;
+}
+
+.fourth-section {
+  background-color: #d2d2d2;
+  height: 500px;
+  padding-top: 50px;
+  padding-left: 780px;
+  padding-right: 780px;
+}
+
+.green-block {
+  display: flex;
+  justify-content: center;
+  padding: 200px;
+  border: 1px dashed black;
+  background-color: #228822;
+}
+
+/* FOOTER */
