@@ -127,7 +127,7 @@ section > .container {
 
 .footer-bk {
   background-color: #222629;
-  height: 652px;
+  height: 632px;
 }
 
 .container-footer {
@@ -177,7 +177,7 @@ section > .container {
   display: flex;
   justify-content: space-between;
   background-color: #7efdd2;
-  padding: 30px 0;
+  padding: 20px 0;
   margin-top: 40px;
   margin-right: 780px;
   margin-left: 780px;
